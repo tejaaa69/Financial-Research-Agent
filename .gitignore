@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+chroma_db/
+rag_data/
+data/
+data_live/
+*.pkl
+*.parquet
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Notebooks (if you want to keep outputs)
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Large models (optional, comment out if storing)
+*.bin
+*.safetensors
